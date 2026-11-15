@@ -2,6 +2,7 @@ import { askJSON, errorJSON } from '@/lib/llm';
 import { rulesFor, checkChannel, applyGuards, diffPlan, PLAN_FIELDS } from '@/lib/rules';
 
 export const runtime = 'nodejs';
+export const maxDuration = 300; // fal generation and the pre-flight loop can take minutes
 
 const MAX_REVISIONS = 2;
 
