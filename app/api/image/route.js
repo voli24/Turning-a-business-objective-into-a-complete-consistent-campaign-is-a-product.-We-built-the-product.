@@ -1,6 +1,7 @@
 import { fal, IMAGE_MODEL, firstUrl, falError } from '@/lib/fal';
 
 export const runtime = 'nodejs';
+export const maxDuration = 300; // fal generation and the pre-flight loop can take minutes
 
 export async function POST(req) {
   try {
