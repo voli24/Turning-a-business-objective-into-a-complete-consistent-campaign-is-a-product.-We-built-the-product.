@@ -1,0 +1,17 @@
+{
+  "name": "campaign-engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.2.0",
+    "next": "15.3.3",
+    "openai": "^4.90.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
